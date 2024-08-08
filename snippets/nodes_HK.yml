@@ -15,20 +15,23 @@ proxies:
     headers:
       Host: mmhk01.micloud.buzz
     path: /zh-cn
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 11|10,11|香港3|@ripaojiedian
+  client-fingerprint: chrome
+  name: 11,15,16|香港3|@ripaojiedian
   network: ws
-  port: '30000'
-  server: 143.92.61.87
-  servername: www.13181057.xyz
-  tls: true
+  port: '10184'
+  server: 36.139.183.164
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  uuid: 99c2c24c-66bd-4419-afb8-ac0f5aaf337a
+  uuid: cbf73243-836e-4994-9d66-bc8b311a4491
   ws-opts:
     headers:
-      Host: www.13181057.xyz
-    path: /path/011410073331
+      Host: ''
+    path: /name
 - alterId: 64
   cipher: auto
   name: 11,16|香港5|@ripaojiedian
@@ -39,37 +42,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11|10,11|香港7|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 172.247.118.254
-  servername: www.63461637.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.63461637.xyz
-    path: /path/011410073331
-- alterId: 64
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15,16|香港3|@ripaojiedian
+  name: 11,15,16|香港7|@ripaojiedian
   network: ws
-  port: '443'
-  server: 103.212.98.234
-  servername: www.59795160.xyz
+  port: '2083'
+  server: 104.16.205.187
+  servername: xg2.sux.lol
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 366496ee-03e4-4fd0-9fec-8cf20637f65b
   ws-opts:
     headers:
-      Host: www.59795160.xyz
-    path: /path/011410073331
+      Host: xg2.sux.lol
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,16|香港2|@ripaojiedian
@@ -99,16 +88,8 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港6|@ripaojiedian
-  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
-  port: 36993
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港7|@ripaojiedian
-  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
-  port: 39301
+  password: c0623f02-6b3a-4742-b34f-f6763581b8ce
+  port: 29527
   server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
@@ -118,5 +99,13 @@ proxies:
   password: ad2114ca-1c75-4607-ad14-1a1824a6dde9
   port: 10182
   server: 36.139.183.164
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港9|@ripaojiedian
+  password: c0623f02-6b3a-4742-b34f-f6763581b8ce
+  port: 39301
+  server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
